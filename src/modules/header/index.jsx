@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../../img/logo.svg';
+import './style.css';
 
-function App() {
+function Header() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Projeto desenvolvido em react.js
         </p>
         <a
           className="App-link"
@@ -15,11 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Ler Mais
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default Header;
